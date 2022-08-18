@@ -1,0 +1,21 @@
+.accordian-item {
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.accordian-header {
+    background-color:lightgrey;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.accordian-header:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.accordian-body {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}

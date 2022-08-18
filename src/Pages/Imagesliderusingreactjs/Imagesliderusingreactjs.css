@@ -1,0 +1,26 @@
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.round-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border-color: grey;
+}
+
+.round-button-selected {
+    background-color: black;
+}

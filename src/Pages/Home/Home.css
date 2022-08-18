@@ -1,0 +1,20 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.Home-header {
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+.Home-body {
+    font-size: x-large;
+}
