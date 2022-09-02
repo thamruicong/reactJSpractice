@@ -13,6 +13,7 @@ import Displayalistinreact from './Pages/Displayalistinreact/Displayalistinreact
 import Buildaccordioninreact from './Pages/Buildaccordioninreact/Buildaccordioninreact';
 import Imagesliderusingreactjs from './Pages/Imagesliderusingreactjs/Imagesliderusingreactjs';
 import Createachecklistinreact from './Pages/Createachecklistinreact/Createachecklistinreact';
+import Printdatafromrestapi from './Pages/Printdatafromrestapi/Printdatafromrestapi';
 
 function Navigation() {
     return (
@@ -24,6 +25,7 @@ function Navigation() {
             <Route path="/buildaccordioninreact" element={<Buildaccordioninreact />} />
             <Route path="/imagesliderusingreactjs" element={<Imagesliderusingreactjs />} />
             <Route path="/createachecklistinreact" element={<Createachecklistinreact />} />
+            <Route path="/printdatafromrestapi" element={<Printdatafromrestapi />} />
             <Route path="*" element={<Main />} />
         </Routes>
     );
