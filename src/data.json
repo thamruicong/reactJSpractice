@@ -5,7 +5,7 @@
     {"id": "4", "title": "Build Accordion in React", "url": "/buildaccordioninreact", "completed": "09/08/22"},
     {"id": "5", "title": "Image Slider using React JS", "url": "/imagesliderusingreactjs", "completed": "09/08/22"},
     {"id": "6", "title": "Create a Checklist in React", "url": "/createachecklistinreact", "completed": "18/08/22"},
-    {"id": "7", "title": "Simple Login form in React", "url": "/simpleloginforminreact", "completed": ""},
+    {"id": "7", "title": "Simple Login form in React", "url": "/simpleloginforminreact", "completed": "24/09/2022"},
     {"id": "8", "title": "Print data from REST API", "url": "/printdatafromrestapi", "completed": "02/09/2022"},
     {"id": "9", "title": "Multi-Page navigation using React Router", "url": "/multi-pagenavigationusingreactrouter", "completed": ""},
     {"id": "10", "title": "Context API in React Components", "url": "/contextapiinreactcomponents", "completed": ""}
