@@ -8,5 +8,5 @@
     {"id": "7", "title": "Simple Login form in React", "url": "/simpleloginforminreact", "completed": "24/09/2022"},
     {"id": "8", "title": "Print data from REST API", "url": "/printdatafromrestapi", "completed": "02/09/2022"},
     {"id": "9", "title": "Multi-Page navigation using React Router", "url": "/multipagenavigationusingreactrouter", "completed": "21/10/2022"},
-    {"id": "10", "title": "Context API in React Components", "url": "/contextapiinreactcomponents", "completed": ""}
+    {"id": "10", "title": "Context API in React Components", "url": "/contextapiinreactcomponents", "completed": "22/10/2022"}
 ]
