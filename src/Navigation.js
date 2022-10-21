@@ -15,6 +15,7 @@ import Imagesliderusingreactjs from './Pages/Imagesliderusingreactjs/Imageslider
 import Createachecklistinreact from './Pages/Createachecklistinreact/Createachecklistinreact';
 import Printdatafromrestapi from './Pages/Printdatafromrestapi/Printdatafromrestapi';
 import Simpleloginforminreact from './Pages/Simpleloginforminreact/Simpleloginforminreact';
+import Multipagenavigationusingreactrouter from './Pages/Multipagenavigationusingreactrouter/Multipagenavigationusingreactrouter';
 
 function Navigation() {
     return (
@@ -28,6 +29,7 @@ function Navigation() {
             <Route path="/createachecklistinreact" element={<Createachecklistinreact />} />
             <Route path="/printdatafromrestapi" element={<Printdatafromrestapi />} />
             <Route path="/simpleloginforminreact" element={<Simpleloginforminreact />} />
+            <Route path="/multipagenavigationusingreactrouter" element={<Multipagenavigationusingreactrouter />} />
             <Route path="*" element={<Main />} />
         </Routes>
     );

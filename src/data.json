@@ -7,6 +7,6 @@
     {"id": "6", "title": "Create a Checklist in React", "url": "/createachecklistinreact", "completed": "18/08/22"},
     {"id": "7", "title": "Simple Login form in React", "url": "/simpleloginforminreact", "completed": "24/09/2022"},
     {"id": "8", "title": "Print data from REST API", "url": "/printdatafromrestapi", "completed": "02/09/2022"},
-    {"id": "9", "title": "Multi-Page navigation using React Router", "url": "/multi-pagenavigationusingreactrouter", "completed": ""},
+    {"id": "9", "title": "Multi-Page navigation using React Router", "url": "/multipagenavigationusingreactrouter", "completed": "21/10/2022"},
     {"id": "10", "title": "Context API in React Components", "url": "/contextapiinreactcomponents", "completed": ""}
 ]
