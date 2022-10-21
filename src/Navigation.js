@@ -16,6 +16,7 @@ import Createachecklistinreact from './Pages/Createachecklistinreact/Createachec
 import Printdatafromrestapi from './Pages/Printdatafromrestapi/Printdatafromrestapi';
 import Simpleloginforminreact from './Pages/Simpleloginforminreact/Simpleloginforminreact';
 import Multipagenavigationusingreactrouter from './Pages/Multipagenavigationusingreactrouter/Multipagenavigationusingreactrouter';
+import Contextapiinreactcomponents from './Pages/Contextapiinreactcomponents/Contextapiinreactcomponents';
 
 function Navigation() {
     return (
@@ -30,6 +31,7 @@ function Navigation() {
             <Route path="/printdatafromrestapi" element={<Printdatafromrestapi />} />
             <Route path="/simpleloginforminreact" element={<Simpleloginforminreact />} />
             <Route path="/multipagenavigationusingreactrouter" element={<Multipagenavigationusingreactrouter />} />
+            <Route path="/contextapiinreactcomponents" element={<Contextapiinreactcomponents />} />
             <Route path="*" element={<Main />} />
         </Routes>
     );
