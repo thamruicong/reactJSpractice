@@ -26,8 +26,8 @@ function Createachecklistinreact() {
         return (
             <div key={index} className='item'>
                 <input 
-                    type="checkbox" 
-                    value={data[index].checked} 
+                    type="checkbox"
+                    checked={data[index].checked}
                     onClick={() => {
                         const newData = [...data]
                         newData[index].checked = !data[index].checked
@@ -50,11 +50,19 @@ function Createachecklistinreact() {
         );
     }
 
+    const clearCheckList = () => {
+        setData(data.map(x => {
+            return {"breed": x.breed, "checked": false};
+        }))
+    }
+
     return (
         <div className='container'>
             <h1>Create A Checklist In React</h1>
             <Link to='/home' className="App-link">Home</Link>
             <br />
+
+            <button onClick={clearCheckList} className='button'>Clear</button>
 
             <div className='body'>
                 <div className='left'>
