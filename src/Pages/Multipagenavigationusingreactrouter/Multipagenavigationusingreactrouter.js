@@ -4,7 +4,7 @@ import '../mainstyle.css';
 function Multipagenavigationusingreactrouter() {
     return (
         <div className='container'>
-            <h1>Simple Counter Exercise</h1>
+            <h1>Multipage Navigation Using React Router</h1>
             <Link to='/home' className="App-link">Home</Link>
             <br />
 
