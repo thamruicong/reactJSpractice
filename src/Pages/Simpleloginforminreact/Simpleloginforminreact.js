@@ -10,12 +10,6 @@ function Simpleloginforminreact() {
     const [displayMessage, setDisplayMessage] = useState("");
     const [isError, setIsError] = useState(false);
 
-    // useEffect(() => {
-    //     console.log("Username: " + username);
-    //     console.log("Password: " + password);
-    //     console.log("Confirm password: " + confirmPassword);
-    // }, [username, password, confirmPassword]);
-
     const handleSubmit = () => {
         if (hasNonEmptyFields() && hasPasswordCharacters() && hasSamePassword()) {
             setDisplayMessage("Welcome " + username);
